@@ -34,7 +34,7 @@ public class HelloWorld {
         
         System.out.println("Hello World to " + name + ", Welcome to The Java Programming World!!");
     
-        System.out.print("Would you like to introduce another person? (y/n): ");
+        System.out.print("Would you like to introduce another person?? (y/n): ");
                 answer = tec.nextLine().toLowerCase();
                 while (!answer.equals("y") && !answer.equals("n")) {
                     System.out.println("Invalid Answer. Please, introduce 'y' or 'n'.");
